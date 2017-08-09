@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers, id-length */
 import {test} from "tap"
 
-import zip from "./"
+import zip from "./source.js"
 
 test(({same, end}) => {
   same(
