@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> IterableType -> IterableType -> IterableType
+> (ArrayType | ObjectType) -> ArrayType | ObjectType -> ArrayType | ObjectType
 
 Takes two iterables and merges them together, combining their values into an array
 
