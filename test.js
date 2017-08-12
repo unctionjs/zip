@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers, id-length */
 import {test} from "tap"
 
-import zip from "./source.js"
+import withoutKeyRecursive from "./source"
 
 test(({same, end}) => {
   same(
