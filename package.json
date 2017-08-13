@@ -21,7 +21,7 @@
   "scripts": {
     "postinstall": "npm run build && flow-typed install",
     "pretest": "npm run build",
-    "test": "tap --reporter min './transpiled/test.js'",
+    "test": "tap './transpiled/test.js'",
     "build": "babel './source.js' './test.js' -d './transpiled/'",
     "lint": "eslint './source.js'",
     "flowcheck": "flow check",
@@ -43,14 +43,16 @@
     "eslint-plugin-promise": "3.5.0",
     "flow": "0.2.3",
     "flow-bin": "0.51.1",
-    "flow-typed": "2.1.3",
-    "tap": "10.3.3"
+    "flow-typed": "2.1.5",
+    "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/attach": "^1.0.3",
-    "@unction/reducevalues": "^1.0.8",
-    "@unction/type": "^1.0.2",
-    "@unction/fresh": "*",
+    "@unction/attach": "1.0.4",
+    "@unction/key": "1.0.0",
+    "@unction/fresh": "1.0.0",
+    "@unction/keys": "2.0.0",
+    "@unction/reducevalues": "1.0.9",
+    "@unction/type": "1.0.3",
     "ramda": "0.24.1"
   }
 }

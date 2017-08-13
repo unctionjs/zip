@@ -1,5 +1,6 @@
 import fresh from "@unction/fresh"
-import {keys} from "ramda"
+import keys from "@unction/keys"
+import key from "@unction/key"
 import {uniq} from "ramda"
 import type from "@unction/type"
 import attach from "@unction/attach"
@@ -14,7 +15,7 @@ export default function zip (left: ArrayType | ObjectType): Function {
     const uniqueKeys = uniq([...keys(left), ...keys(right)])
 
     return reduceValues((accumulated: IterableType): Function => (point: KeyType): IterableType => {
-      return attach(point)([left[point], right[point]])(accumulated)
+      return attach(point)([key(point)(left), key(point)(right)])(accumulated)
     })(
       fresh(right)
     )(
