@@ -32,3 +32,16 @@ test(({same, end}) => {
 
   end()
 })
+
+test(({throws, end}) => {
+  throws(
+    () =>
+      zip({
+        aaa: "1",
+        bbb: "2",
+        ccc: "0",
+      })(["4", "5", "6"])
+  )
+
+  end()
+})
