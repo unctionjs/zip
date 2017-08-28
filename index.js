@@ -9,12 +9,12 @@ import reduceValues from "@unction/reducevalues"
 export default function zip (left: ArrayType | ObjectType): Function {
   return function zipLeft (right: ArrayType | ObjectType): ArrayType | ObjectType {
     if (type(left) !== type(right)) {
-      throw new Error("left and right were not the same iterable type")
+      throw new Error("left and right were not the same functor type")
     }
 
     const uniqueKeys = uniq([...keys(left), ...keys(right)])
 
-    return reduceValues((accumulated: IterableType): Function => (point: KeyType): IterableType => {
+    return reduceValues((accumulated: FunctorType): Function => (point: KeyType): FunctorType => {
       return attach(point)([key(point)(left), key(point)(right)])(accumulated)
     })(
       fresh(right)
