@@ -51,9 +51,9 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/attach": "2.0.0",
-    "@unction/fresh": "2.0.0",
-    "@unction/key": "2.0.0",
+    "@unction/attach": "3.0.0",
+    "@unction/fresh": "3.0.0",
+    "@unction/key": "3.0.0",
     "@unction/keys": "3.0.0",
     "@unction/reducevalues": "2.2.0",
     "@unction/type": "2.0.0",
