@@ -18,6 +18,9 @@
   "repository": "github:unctionjs/tempLate",
   "bugs": "https://github.com/unctionjs/tempLate/issues",
   "main": "transpiled/index.js",
+  "files": [
+    "transpiled/index.js"
+  ],
   "scripts": {
     "prepublishOnly": "npm run build",
     "prepare": "flow-typed install",
