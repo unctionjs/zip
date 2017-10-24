@@ -53,12 +53,12 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/attach": "3.6.0",
-    "@unction/fresh": "3.4.0",
-    "@unction/key": "4.4.0",
-    "@unction/keys": "3.4.0",
-    "@unction/reducevalues": "2.7.0",
-    "@unction/type": "2.4.0",
+    "@unction/attach": "3.7.0",
+    "@unction/fresh": "3.5.0",
+    "@unction/key": "4.5.0",
+    "@unction/keys": "3.5.0",
+    "@unction/reducevalues": "2.8.0",
+    "@unction/type": "2.5.0",
     "ramda": "0.24.1"
   },
   "nyc": {
