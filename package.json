@@ -56,8 +56,8 @@
     "@unction/attach": "3.10.0",
     "@unction/fresh": "3.8.0",
     "@unction/key": "4.8.0",
-    "@unction/keys": "3.33.0",
-    "@unction/reducevalues": "2.35.0",
+    "@unction/keys": "3.34.0",
+    "@unction/reducevalues": "2.36.0",
     "@unction/type": "2.6.0",
     "ramda": "0.24.1"
   },
