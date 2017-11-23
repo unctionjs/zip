@@ -54,10 +54,10 @@
   },
   "dependencies": {
     "@unction/attach": "3.13.0",
-    "@unction/fresh": "3.9.0",
-    "@unction/key": "4.9.0",
-    "@unction/keys": "3.38.0",
-    "@unction/reducevalues": "2.39.0",
+    "@unction/fresh": "3.11.0",
+    "@unction/key": "4.11.0",
+    "@unction/keys": "3.40.0",
+    "@unction/reducevalues": "2.41.0",
     "@unction/type": "2.8.0",
     "ramda": "0.24.1"
   },
