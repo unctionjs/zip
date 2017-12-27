@@ -55,11 +55,11 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/attach": "4.0.0",
-    "@unction/fresh": "5.0.0",
-    "@unction/key": "5.0.0",
-    "@unction/keys": "4.0.0",
-    "@unction/reducevalues": "3.0.0",
+    "@unction/attach": "5.0.0",
+    "@unction/fresh": "6.0.0",
+    "@unction/key": "6.0.0",
+    "@unction/keys": "5.0.0",
+    "@unction/reducevalues": "4.0.0",
     "@unction/type": "3.0.0",
     "ramda": "0.24.1"
   },
