@@ -1,6 +1,6 @@
 {
   "name": "@unction/zip",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "Takes two iterables and merges them together, combining their values into an array",
   "keywords": [
     "unction",
