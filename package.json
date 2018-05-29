@@ -54,8 +54,8 @@
     "jest": "23.0.0"
   },
   "dependencies": {
-    "@unction/attach": "5.0.0",
-    "@unction/fresh": "6.0.0",
+    "@unction/attach": "6.0.0",
+    "@unction/fresh": "7.0.0",
     "@unction/key": "8.0.0",
     "@unction/keys": "10.0.0",
     "@unction/reducevalues": "7.0.0",
