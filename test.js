@@ -1,16 +1,16 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import zip from "./index"
+import zip from "./index";
 
 test(({same, end}) => {
   same(
     zip(["1", "2", "3"])(["4", "5", "6"]),
     [["1", "4"], ["2", "5"], ["3", "6"]]
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
@@ -28,10 +28,10 @@ test(({same, end}) => {
       bbb: ["2", "0"],
       ccc: ["0", "0"],
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({throws, end}) => {
   throws(
@@ -41,7 +41,7 @@ test(({throws, end}) => {
         bbb: "2",
         ccc: "0",
       })(["4", "5", "6"])
-  )
+  );
 
-  end()
-})
+  end();
+});
