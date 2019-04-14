@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/zip#readme",
   "repository": "github:unctionjs/zip",
   "bugs": "https://github.com/unctionjs/zip/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "files": [
     "index.js",
     "main.js",
@@ -74,5 +74,5 @@
     "instrument": false
   },
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }
