@@ -74,6 +74,6 @@
     "sourceMap": false,
     "instrument": false
   },
-  "module": "index.js",
+  "module": "module.js",
   "browser": "browser.js"
 }
