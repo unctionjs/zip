@@ -1,4 +1,3 @@
-/* eslint-disable flowtype/require-return-type */
 import {test} from "tap";
 
 import zip from "./index";

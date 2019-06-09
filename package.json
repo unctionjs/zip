@@ -60,7 +60,7 @@
   "dependencies": {
     "@unction/attach": "7.2.0",
     "@unction/fresh": "8.2.0",
-    "@unction/key": "8.0.0",
+    "@unction/get": "2.2.0",
     "@unction/keys": "10.2.0",
     "@unction/reducevalues": "8.2.0",
     "@unction/type": "4.1.0",
