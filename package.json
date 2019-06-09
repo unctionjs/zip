@@ -58,12 +58,12 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/attach": "7.3.0",
-    "@unction/fresh": "8.3.0",
-    "@unction/get": "2.3.0",
-    "@unction/keys": "10.3.0",
-    "@unction/reducevalues": "8.3.0",
-    "@unction/type": "4.1.1",
+    "@unction/attach": "7.5.0",
+    "@unction/fresh": "8.5.0",
+    "@unction/get": "2.5.0",
+    "@unction/keys": "10.5.0",
+    "@unction/reducevalues": "8.5.0",
+    "@unction/type": "4.2.0",
     "core-js": "3.0.1",
     "ramda": "0.24.1"
   },
