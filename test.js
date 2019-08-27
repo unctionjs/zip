@@ -1,6 +1,6 @@
 import {test} from "tap";
 
-import zip from "./index";
+import zip from "./";
 
 test(({same, end}) => {
   same(
