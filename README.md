@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (ArrayType | ObjectType) => ArrayType | ObjectType => ArrayType | ObjectType
+> KeyedEnumerableType<R> => KeyedEnumerableType<L> => KeyedEnumerableType<[R, L]>
 
 Takes two iterables and merges them together, combining their values into an array
 

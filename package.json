@@ -19,7 +19,7 @@
   "bugs": "https://github.com/unctionjs/zip/issues",
   "main": "main.js",
   "files": [
-    "index.js",
+    "index.ts",
     "main.js",
     "main.js.map",
     "browser.js",
@@ -76,5 +76,6 @@
     "instrument": false
   },
   "module": "module.js",
-  "browser": "browser.js"
+  "browser": "browser.js",
+  "types": "types.d.ts"
 }
