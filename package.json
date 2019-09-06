@@ -62,10 +62,10 @@
   "dependencies": {
     "@unction/attach": "7.6.0",
     "@unction/fresh": "8.6.0",
-    "@unction/get": "2.6.0",
-    "@unction/keys": "10.6.0",
-    "@unction/reducevalues": "8.6.0",
-    "@unction/type": "4.2.1",
+    "@unction/get": "2.7.0",
+    "@unction/keys": "10.7.0",
+    "@unction/reducevalues": "8.7.0",
+    "@unction/type": "5.0.0",
     "ramda": "0.24.1"
   },
   "module": "module.js",
