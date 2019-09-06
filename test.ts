@@ -1,10 +1,10 @@
 import zip from "./index";
 
-test(() => {
+test("works", () => {
   expect(zip(["1", "2", "3"])(["4", "5", "6"])).toEqual([["1", "4"], ["2", "5"], ["3", "6"]]);
 });
 
-test(() => {
+test("works", () => {
   expect(zip({
     aaa: "1",
     bbb: "2",
@@ -20,7 +20,7 @@ test(() => {
   });
 });
 
-test(() => {
+test("works", () => {
   expect(() =>
     zip({
       aaa: "1",
