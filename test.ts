@@ -1,4 +1,4 @@
-import zip from "./index.ts";
+import zip from "./index";
 
 test(() => {
   expect(zip(["1", "2", "3"])(["4", "5", "6"])).toEqual([["1", "4"], ["2", "5"], ["3", "6"]]);
