@@ -60,12 +60,12 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/attach": "7.6.0",
-    "@unction/fresh": "8.6.0",
-    "@unction/get": "2.7.0",
-    "@unction/keys": "10.7.0",
-    "@unction/reducevalues": "8.7.0",
-    "@unction/type": "5.0.0",
+    "@unction/attach": "7.8.0",
+    "@unction/fresh": "8.8.0",
+    "@unction/get": "2.8.0",
+    "@unction/keys": "10.8.0",
+    "@unction/reducevalues": "8.8.0",
+    "@unction/type": "5.0.1",
     "ramda": "0.24.1"
   },
   "module": "module.js",
