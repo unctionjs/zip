@@ -6,8 +6,6 @@ import type from "@unction/type";
 import attach from "@unction/attach";
 import reduceValues from "@unction/reducevalues";
 
-import {KeyedEnumerableType} from "./types";
-
 export default function zip<R, L> (left: KeyedEnumerableType<R>) {
   return function zipLeft (right: KeyedEnumerableType<L>): KeyedEnumerableType<[R, L]> {
     if (type(left) !== type(right)) {
