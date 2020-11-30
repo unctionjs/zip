@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyedEnumerableType<R> => KeyedEnumerableType<L> => KeyedEnumerableType<[R, L]>
+> ListType<R> | RecordType<unknown, R> | string => ListType<L> | RecordType<unknown, L> | string => ListType<[R, L]> | RecordType<unknown, [R, L]>
 
 Takes two iterables and merges them together, combining their values into an array
 

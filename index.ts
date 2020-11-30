@@ -6,8 +6,8 @@ import type from "@unction/type";
 import attach from "@unction/attach";
 import reduceValues from "@unction/reducevalues";
 
-export default function zip<R, L> (left: KeyedEnumerableType<R>) {
-  return function zipLeft (right: KeyedEnumerableType<L>): KeyedEnumerableType<[R, L]> {
+export default function zip<R, L> (left: ListType<R> | RecordType<unknown, R> | string) {
+  return function zipLeft (right: ListType<L> | RecordType<unknown, L> | string): ListType<[R, L]> | RecordType<unknown, [R, L]> {
     if (type(left) !== type(right)) {
       throw new Error("left and right were not the same enumerable type");
     }
@@ -15,7 +15,7 @@ export default function zip<R, L> (left: KeyedEnumerableType<R>) {
     const uniqueKeys = uniq([...keys(left), ...keys(right)]);
 
     return reduceValues(
-      (accumulated: KeyedEnumerableType<[R, L]>) =>
+      (accumulated: ListType<[R, L]> | RecordType<unknown, [R, L]>) =>
         (point: unknown) =>
           attach(point)([get(point)(left), get(point)(right)])(accumulated)
     )(
